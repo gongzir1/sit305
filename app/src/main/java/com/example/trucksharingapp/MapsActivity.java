@@ -40,7 +40,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map1);
+                .findFragmentById(R.id.map12);
         mapFragment.getMapAsync(this);
         Intent intent=getIntent();
         String from=intent.getStringExtra("from");
@@ -100,11 +100,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-
+        //deakin -37.8585803,145.109048
+        //city -37.971237,144.4926947
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng deakin = new LatLng(-37.8585803, 145.109048);
+        LatLng city = new LatLng(-37.971237, 144.4926947);
+        mMap.addMarker(new MarkerOptions().position(deakin).title("Marker in deakin"));
+        mMap.addMarker(new MarkerOptions().position(city).title("Marker in city"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(deakin));
+
+
+        
     }
 
 }
