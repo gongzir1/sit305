@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/06temp/sit305-task10.1d_final/app/src/main/res/drawable/btn_stop.xml" value="0.139" />
+        <entry key="..\:/06temp/sit305-task10.1d_final/app/src/main/res/layout/activity_add_order.xml" value="0.1702127659574468" />
+        <entry key="..\:/06temp/sit305-task10.1d_final/app/src/main/res/layout/iatdemo.xml" value="0.23052536231884058" />
+        <entry key="..\:/06temp/sit305-task10.1d_final/app/src/main/res/layout/map_activity.xml" value="0.20018115942028986" />
+        <entry key="..\:/06temp/sit305-task10.1d_final/app/src/main/res/menu/menu.xml" value="0.20925925925925926" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/drawable-v24/circle_btn.xml" value="0.1725" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_add_new_delivery_order.xml" value="0.1" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_add_order.xml" value="0.264" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_main.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_my_orders.xml" value="0.176" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_order_details.xml" value="0.264" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/fragment_order.xml" value="0.2" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/menu.xml" value="0.1" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/layout/order.xml" value="0.22685185185185186" />
+        <entry key="..\:/Users/quoch/AndroidStudioProjects/TruckSharingApp/app/src/main/res/menu/menu.xml" value="0.27447916666666666" />
+        <entry key="app/src/main/res/drawable-v24/circle_btn.xml" value="0.118" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/back.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_arrow.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_new_delivery_order.xml" value="0.4534412955465587" />
+        <entry key="app/src/main/res/layout/activity_add_order.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_checkout.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/activity_maps.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_my_orders.xml" value="0.14266304347826086" />
+        <entry key="app/src/main/res/layout/activity_my_orders_new.xml" value="0.22447916666666667" />
+        <entry key="app/src/main/res/layout/activity_order_details.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_sensor.xml" value="0.580827404203869" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_maps.xml" value="0.23731884057971014" />
+        <entry key="app/src/main/res/layout/iatdemo.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/layout/map_activity.xml" value="0.3134057971014493" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/sensors.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/xml/iat_setting.xml" value="0.5328125" />
+        <entry key="app/src/main/res/xml/ise_settings.xml" value="0.3134057971014493" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
