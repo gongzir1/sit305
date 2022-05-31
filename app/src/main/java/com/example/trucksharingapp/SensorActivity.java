@@ -29,35 +29,8 @@ public class SensorActivity extends Activity implements SensorEventListener {
         // Get an instance of the sensor service, and use that to get an instance of
         // a particular sensor.
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
-//        pressure = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
+
         temp = findViewById(R.id.temperature);
-      //  pres = findViewById(R.id.pressure);
-//        changeSensor=findViewById(R.id.changeSensor);
-//        changeSensor.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                PopupMenu popup = new PopupMenu(SensorActivity.this, changeSensor);
-//                popup.getMenuInflater()
-//                        .inflate(R.menu.sensors, popup.getMenu());
-//
-//                popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
-//                    public boolean onMenuItemClick(MenuItem item) {
-//                        if (item.getTitle().equals("Temperature")){
-//                            Toast.makeText(getApplicationContext(), "Temperature",Toast.LENGTH_SHORT).show();
-//                            pressure = sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
-//                        }
-//                        else if (item.getTitle().equals("Pressure")){
-//                            pressure = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
-//                            Toast.makeText(getApplicationContext(), "Pressure",Toast.LENGTH_SHORT).show();
-//                        }
-//
-//                        return true;
-//                    }
-//                });
-//
-//                popup.show();
-//            }
-//        });
         if (sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE) != null) {
             pressure = sensorManager.getDefaultSensor(Sensor.TYPE_PRESSURE);
         } else {
@@ -79,7 +52,6 @@ public class SensorActivity extends Activity implements SensorEventListener {
     public final void onSensorChanged(SensorEvent event) {
         float millibarsOfPressure = event.values[0];
         // Do something with this sensor data.
-      //  pres.setText("Pressure is "+(int) millibarsOfPressure);
         temp.setText("Temperature is "+event.values[0]+"°C");
     }
 

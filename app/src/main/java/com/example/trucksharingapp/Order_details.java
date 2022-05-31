@@ -21,14 +21,7 @@ public class Order_details extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order_details);
         Intent intent=getIntent();
-//        String user="From:"+MainActivity.user;
-//        String time="Pick up time:"+intent.getStringExtra("time");
-//        String weight="Weight:"+intent.getStringExtra("weight");
-//        String width="Width:"+intent.getStringExtra("width");
-//        String length="Length:"+intent.getStringExtra("length");
-//        String goodtype="Type:"+intent.getStringExtra("goodtype");
-//        String height="Height:"+intent.getStringExtra("height");
-//        String quantity="Quantity:"+intent.getStringExtra("quantity");
+
         String from="deakin";
         String to="city";
         String time="Pick up time:"+"12:00";

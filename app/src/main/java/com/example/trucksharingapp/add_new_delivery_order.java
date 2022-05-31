@@ -43,17 +43,7 @@ public class add_new_delivery_order extends AppCompatActivity {
         goodt=findViewById(R.id.E1);
         vehiclet=findViewById(R.id.E2);
         goodt.addTextChangedListener(textWatcher);
-//        goodt.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                gtype1.setTextColor(Color.BLACK);
-//                gtype2.setTextColor(Color.BLACK);
-//                gtype3.setTextColor(Color.BLACK);
-//                gtype4.setTextColor(Color.BLACK);
-//                goodt.setFocusableInTouchMode(true);
-//                otherGood=true;
-//            }
-//        });
+
 
         vehiclet.setOnClickListener(new View.OnClickListener() {
             @Override
